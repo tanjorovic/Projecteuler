@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.Scanner;
 
-public class Main {
+public class EvenFibonacci {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
     System.out.println("to what number you want feb to go:");
