@@ -10,21 +10,16 @@ public class Main {
     System.out.println(sum(number));
   }
   public static int sum(int number){
-    int sum=1;
+    int sum=0;
     int x=1;
     int y=2;
-    while (true){
+    while (y<=number){
+        if (y%2==0 ){
+                sum+=y;
+        }
         int z=y;
         y+=x;
         x=z;
-        if (y>=number){
-            break;
-        }
-        if (y%2==0 ){
-                continue;
-            }else {
-                 sum+=y;
-              }
         
     }
     return sum;
