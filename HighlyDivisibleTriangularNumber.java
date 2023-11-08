@@ -1,6 +1,6 @@
 public class HighlyDivisibleTriangularNumber {
     public static void main(String[] args) {
-        long first=0;
+        long first=0; 
         for (long i=1;i>0;i++){
             if(factors(triangleNumber(i))>=500){
                 first = triangleNumber(i);
